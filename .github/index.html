@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenship Pte. Ltd</title>
+    <style>
+        /* 页面重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        /* 居中容器 */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        /* Logo样式 */
+        .logo {
+            max-width: 300px;
+            width: 80%;
+            height: auto;
+        }
+
+        /* 可选：公司名称 */
+        .company-name {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 600px) {
+            .company-name {
+                font-size: 20px;
+            }
+            .logo {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://raw.githubusercontent.com/ken-zhang-82/greenship/main/greenship_pte_ltd.png" alt="Greenship Pte. Ltd Logo">
+        <div class="company-name">Greenship Pte. Ltd</div>
+    </div>
+</body>
+</html>
